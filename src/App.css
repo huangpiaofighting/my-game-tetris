@@ -1,0 +1,53 @@
+
+.square{
+  width: 400px;
+  height: 600px;
+  position: relative;
+  left: -200px;
+  margin-left: 50%;
+}
+.title{
+  font-size: 30px;
+  margin: 20px auto;
+}
+
+.game{
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 400px;
+  background-color: #f2faff;
+  border: 1px solid blue;
+  border-top: none;
+}
+.next{
+  position: relative;
+  float: left;  
+  width: 80px;
+  height: 80px;
+  margin-left: 40px;
+  background-color: #f2faff;
+  border: 1px solid blue;
+}
+.info{  
+  float: left;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.none,.done,.current{
+  position: absolute;
+  width: 20px;
+  height: 20px; 
+  box-sizing: border-box;
+}
+.none{
+  background-color: #f2faff;
+}
+.current{
+  background-color: #708be8;
+  border: 1px solid #0f18f5;
+}
+.done{
+  background-color: gray;
+  border: 1px solid black;
+}
